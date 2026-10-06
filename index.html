@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NASA Mission Planner</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b1026;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: #151b3d;
+            padding: 30px;
+            border-bottom: 3px solid #4da6ff;
+        }
+
+        h1 {
+            color: #4da6ff;
+            font-size: 40px;
+            margin: 0;
+        }
+
+        header p {
+            color: #d9e6ff;
+            font-size: 18px;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        .mission-card {
+            background-color: #1c254f;
+            border-radius: 12px;
+            padding: 25px;
+            max-width: 500px;
+            margin: 20px auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .mission-card h2 {
+            color: #66ccff;
+        }
+
+        .mission-card p {
+            color: #e6e6e6;
+            font-size: 16px;
+        }
+
+        .status {
+            display: inline-block;
+            background-color: #2ecc71;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #4da6ff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #2f8ee5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🚀 NASA Mission Planner</h1>
+        <p>Explore and discover NASA space missions</p>
+    </header>
+
+    <div class="container">
+
+        <div class="mission-card">
+            <h2>Artemis II</h2>
+            <p><strong>Destination:</strong> Moon</p>
+            <p><strong>Purpose:</strong> Human exploration of the Moon</p>
+            <span class="status">Planned</span>
+        </div>
+
+<div class="mission-card">
+    <h2>Europa Clipper</h2>
+    <p><strong>Destination:</strong> Europa</p>
+    <p><strong>Purpose:</strong> Study Jupiter's icy moon</p>
+    <span class="status">Active</span>
+</div>
+
+<div class="mission-card">
+    <h2>Mars Rover</h2>
+    <p><strong>Destination:</strong> Mars</p>
+    <p><strong>Purpose:</strong> Explore the surface of Mars</p>
+    <span class="status">Active</span>
+</div>
+
+        <button>Explore Missions</button>
+
+    </div>
+
+</body>
+</html>
